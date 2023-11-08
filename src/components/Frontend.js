@@ -126,7 +126,7 @@ const Frontend = () => {
 
             <div className="col-lg-5 text-center text-md-start text--color text fadeIn">
               <ul className="ul-list">
-              <h2 className="section-title">what you'll learn</h2>
+              <h2 className="section-title text-primary fs-1">what you'll learn</h2>
                 <li>
                   Server-Side Programming Languages: Backend developers work
                   with languages like Python, Ruby, Java, or JavaScript
@@ -182,7 +182,7 @@ const Frontend = () => {
       <section className="bg mt-5 pt-5">
         <div class="container-lg">
           <div class="text-center ">
-            <h2>FAQS</h2>
+            <h2 className="text-primary">FAQS</h2>
           </div>
           <div class="row my-5 g-5 justify-content-around align-items-center">
             <div class="col-lg-6">

@@ -2,6 +2,7 @@ import React from 'react';
 import './Homepage.css'; // You may need to create a CSS file for styling
 import codesidebarImage from '../images/headdesign.png'; // Import the image
 
+
 function Home() {
   return (
     <div className="home">

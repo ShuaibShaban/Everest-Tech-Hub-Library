@@ -1,0 +1,107 @@
+.my-section {
+  height: 100vh;
+  background-image: url("../components/assests/Abstract-red-black-cyber-geometric-dynamic-on-white-with-blank-space-futuristic-design-modern-technology-background-vector.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.info__card {
+    width: 20%;
+    background-color: white;
+    margin-left: 70%;
+    border-radius: 10px;
+    margin-top: -7%;
+    border: 3px solid red;
+}
+
+.text{
+    margin-top: 20%;
+}
+
+.font-weight {
+  font-weight: 400;
+}
+
+/* General Styles */
+.container {
+  padding: 50px 15px; 
+}
+
+.text fadeIn h2 {
+  font-size: 2em; 
+  margin-bottom: 20px;
+  color: white;
+}
+
+
+.font-weight {
+  font-weight: 400;
+  color: white; 
+  line-height: 2.2; 
+}
+
+
+.text.fadeIn {
+  animation: fadeIn 2s forwards; 
+}
+
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+/* Styling for the card */
+.card-box {
+  padding: 55px;
+  border-radius: 8px; 
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1); 
+}
+
+.bg-secondary {
+  background-color: #343a40;
+  color: white;
+}
+
+.text-white {
+  color: #fff;
+}
+
+ul {
+  padding-left: 0; 
+  color: white;
+  margin-left: 50px;
+  font-size: larger;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+ul li span.font-weight {
+  display: block; 
+}
+
+.ul-list {
+  margin-left: 90px;
+  margin-top: -15%;
+}
+
+.ul-list li {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: black;
+  line-height: 1.5;
+}
+
+.section-title {
+  font-size: 30px;
+  font-weight: bold;
+  color: #333;
+  margin-left: 18%;
+  margin: 20px;
+}
